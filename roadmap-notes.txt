@@ -1,0 +1,74 @@
+The independent study, as already discussed with Mr. J, is supposed to be centered around improving the class for the next set of students to take it.  Currently, this improvement seems easiest to accomplish through 3 main tasks and three ancillary tasks:
+
+Main Task 1) Review / critique / modify a library interface for the simulator project to be built against.  Despite this being one of the main tasks of the semester, it should take a relatively small amount of time.  This would largely encompass a comparison of the new library interface with the old style of simulators as well as various creative improvements over the old style.
+
+Main Task 2) Envision, Design, and Implement auxillary programs to assist students (and Mr. J) in the development, testing, and grading of the simulator.  This task will take a large portion of the school year.  This could be split into requirements gathering phases (interviewing students that already took the course for input?).
+
+Main Task 3) Design / Modify a reference implementation of the simulator library for use with the auxillary programs as well as for example / demonstration purposes.  This task (building from scratch, anyway) would take a large amount of time (despite the fact I've already done this task essentially once before).
+
+Ancillary Task 1) As milestones come and go, keep a log of all activity / design ideas and document changes to spec with changelogs
+
+Ancillary Task 2) As changes to spec happen, keep all aspects of all sub-projects up to date with the changes (whee changelogs)
+
+Ancillary Task 3) Write sample assembly programs for use with the various sub-projects / simulator versions
+
+Milestone Ideas: ( an idea prefixed with a ? is optional)
+	
+	Task 1 should take up at the absolute most 3 milestones.
+	Ideas:
+		Familiarize? (beginning of the year, basically before anything else)
+			Write a comparison between the library version and the old graphical version
+			Generate a list of questions / comments / improvments for the new library
+			Research and write a specification for hooking into the library / how the library must be able to be accessed
+		Investigate? (beginning-middle of the year, after some work on the reference implementation)
+			Gather input on the state of the old version as well as the new version (specifically what was unnecessarily troublesome and any reservations about the new interface)
+			Research cross-language libraries (e.g., library written in java, how do i hook into it with python? etc)
+		Educate? (middle / end of the year, when the reference implementation is near done and at least a couple auxillary applications are finished)
+			Write a paper summarizing how the new interface works (as if a guide for a student taking the course)
+			Take the library and translate it into some other language / figure out a method for any application to hook into it (make a guide for making it cross-platform accessible?)
+	
+	Task 2 should take up at least 3 milestones (up to 5)
+	Essence:  
+		Implementation periods should follow requirements gathering periods.  These applications should vary from informational (gui), to practical (auto-grader?), to essential (cmdline-runner), to fun (something else??? (maybe hardware emulation?))
+		All these ancillary projects should be able to hook into the library (written in any language)
+		Each project consists of two milestones: 
+			Requirements gathering / grading scale creation
+			Implementation
+	Ideas:
+		CMDLINE-RUNNER (near beginning of year)
+			Description: a script / application for running the library from the command line.  simple and basic
+			Purpose: used by the students and / or Mr. J to quickly run / test their programs without needing the display of the GUI
+		GUI (near beginning of year, use Mr. J's 80 version?)
+			Description / implementation: simply a graphical interface for the memory / etc of the simulator (very reminiscent of the old simulator project)
+			Purpose: used by the students to easily see what their simulator is doing in its guts (without necessariliy having to step through in an IDE debugger)
+		Auto-grader (near end of year)
+			Purpose: used by Mr. Jueckstock to quickly grade the simulators
+			could simply be a series of scripts in python or bash or something that shunt simulator input and output around and perform diffs
+		? Terminal Emulator (near end of year)
+			Description: Allows manual input from / to a command-prompt-esque terminal
+			Purpose: meh
+		? Hardware Display (near end of year)
+			Description: an emulator for a vga screen or something
+			Purpose: wild students can do stuff with displays??
+				
+	Task 3 should take up at least 5 milestones and at most 7 milestones //this is iffy though
+	Essence:
+		With each stage, write the requirements and meet them
+	Ideas:
+		Inception: (beginning of year)
+			Translate old armsim project into 4 phases (behind the new interface architecture)
+			Weed out components of the old phases that are no longer needed
+		POC: (beginning - middle of year)
+			Design requirements for a dummy simulator.
+			Implement dummy simulator
+		Pre-Alpha: (middle of year)
+			Design and implement core classes of the simulator inside the dummy
+		Alpha: (middle of year)
+			Extend the functionality to include some basic commands
+		Beta: (middle of year - end of year)
+			Flesh out the functionality for a nigh-complete simulator
+		Release: (end of year)
+			Fully functional simulator that meets the interoperable requirements.  Well documented along with a manual
+		? Expansion: (end of year)
+			Implement something cool to extend your Simulator (like an ancillary app / interwork with another ancillary app)
+		
