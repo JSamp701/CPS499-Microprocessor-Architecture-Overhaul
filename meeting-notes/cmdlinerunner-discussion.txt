@@ -1,0 +1,21 @@
+An actual library
+	Shared library is preferable (for using with all my tools)
+
+C code without a main function, compile with -c
+use all the .o files in the ar tool to make an archive file
+
+look into cmake (specific for making different output types? - library, program, etc)
+	+++
+
+Cmdline runner
+	support these cmdline args
+		load
+		mem
+		apitest -- check to make sure all the call are implemented / acting vaguely correcting (sanity test)
+			-- garbage input returns correct errors
+		exec
+		cache	-- enables caching (needed to add to API)
+
+
+Interrupts
+		
