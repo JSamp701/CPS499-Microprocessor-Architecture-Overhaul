@@ -1,0 +1,2 @@
+all memory is through generic load-store calls (whose body is implemented host side)
+Caching can act within a wrapper around the aforementioned calls
