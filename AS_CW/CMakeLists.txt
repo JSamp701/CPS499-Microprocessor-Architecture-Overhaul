@@ -4,4 +4,4 @@ project(AS_CW)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES main.cpp)
-add_executable(AS_CW ${SOURCE_FILES})
+#add_executable(AS_CW ${SOURCE_FILES})

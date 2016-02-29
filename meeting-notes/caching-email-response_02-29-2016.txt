@@ -1,0 +1,2 @@
+Question: Should there be a "get cache" function in the API? Would be useful for displaying / debugging / testing cached memory.
+Response: Sounds like a cool idea.  May have far-reaching implementation difficulties. Maybe defer thought until after working reference simulator with caching
