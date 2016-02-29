@@ -8,14 +8,30 @@ look into cmake (specific for making different output types? - library, program,
 	+++
 
 Cmdline runner
-	support these cmdline args
-		load
-		mem
+	document tool extensively (for the next, poor soul to work on it)
+	make sure the running tool can detect the version of the library the student implemented and compare it to the version the runner expects
+	automation
+		interrupts at cycles (+ keyboard data)
+	interactivity
+		stdin generates keyboard interrupts
+		serial console output goes to stdout
+		all console io goes straight to simulator
+	support these cmdline args (use getopt)
+		load	-- load an elf file into memory
+		mem	-- how much ram to simulate
 		apitest -- check to make sure all the call are implemented / acting vaguely correcting (sanity test)
 			-- garbage input returns correct errors
-		exec
 		cache	-- enables caching (needed to add to API)
+		trace	-- where to log a trace file to (if missing, don't)
+		script	-- file contiaining interrupt scripting data (if not present, runs interactively)
+	design ideas:
+		automated mode
+			1 thread, simply running to the next interrupt, interrupting, and then restarting
+		interactive mode
+			1 thread, use conio.h (to make life happy)
 
 
 Interrupts
+	stop the simulator, call the interrupt method, and shove data to the right spot
+	input / output will still be magically mapped to certain memory locations (for varying types of io: console, graphic, network, etc)
 		
