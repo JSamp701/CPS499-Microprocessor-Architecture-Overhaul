@@ -11,7 +11,10 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6440e114-a812-4ba7-ad7b-f890bea9d9c4" name="Default" comment="" />
+    <list default="true" id="6440e114-a812-4ba7-ad7b-f890bea9d9c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="AS_RI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,6 +56,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -60,11 +66,11 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="43" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1557" />
-    <option name="height" value="789" />
+    <option name="height" value="817" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -137,7 +143,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="24" width="1557" height="789" extended-state="6" />
+    <frame x="43" y="-4" width="1557" height="817" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -175,6 +181,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
