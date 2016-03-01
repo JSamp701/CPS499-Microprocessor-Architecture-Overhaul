@@ -1,0 +1,2 @@
+gcc -fPIC -c *.c
+gcc -shared -Wl,-soname,mysotest.so -o mysotest.so *.o
