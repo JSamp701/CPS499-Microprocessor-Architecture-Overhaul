@@ -12,14 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e573cb3-a366-46de-9e6b-5bf16a645353" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/as_lib_wrapper.c" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/main.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/source/runner.py" afterPath="$PROJECT_DIR$/../AS_CLR/source/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/CMakeLists.txt" afterPath="$PROJECT_DIR$/../AS_DI/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/as_lib_wrapper.c" afterPath="$PROJECT_DIR$/source/as_lib_wrapper.c" />
     </list>
     <ignored path="AS_CW.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +46,8 @@
       <file leaf-file-name="as_lib_wrapper.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/as_lib_wrapper.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26277372">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84233576">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -309,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/as_lib_wrapper.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26277372">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84233576">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding />
         </state>
       </provider>
