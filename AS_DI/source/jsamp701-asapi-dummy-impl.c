@@ -8,6 +8,13 @@
 #include "ASAPI/asapi.h"
 #include "armsim-ctx.h"
 
+enum ASAPI_MAJOR asapi_major_version(){
+    return ASAPI_MAJOR_CURRENT;
+}
+enum ASAPI_MINOR asapi_minor_version(){
+    return ASAPI_MINOR_CURRENT;
+}
+
 // Begin defining the various API calls
 ARMSIM_STATUS as_create_simulator(
         ARMSIM_CTX **pctx,
@@ -22,6 +29,10 @@ ARMSIM_STATUS as_destroy_simulator(ARMSIM_CTX *ctx){
 }
 
 ARMSIM_STATUS as_set_loglevel(ARMSIM_CTX *ctx, ARMSIM_LOGLEVEL level){
+    return AS_NOT_IMPLEMENTED;
+}
+
+ARMSIM_STATUS as_set_tracelevel(ARMSIM_CTX *ctx, ARMSIM_TRACELEVEL level){
     return AS_NOT_IMPLEMENTED;
 }
 
