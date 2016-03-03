@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e01109d2-fa73-449d-817e-1a2ee82bc4b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/runner.py" afterPath="$PROJECT_DIR$/source/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CW/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_CW/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CW/source/as_lib_wrapper.c" afterPath="$PROJECT_DIR$/../AS_CW/source/as_lib_wrapper.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" />
     </list>
     <ignored path="AS_CLR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28">
-              <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="110" />
+            <state vertical-scroll-proportion="0.6">
+              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -59,10 +56,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="-789" />
+    <option name="x" value="1643" />
+    <option name="y" value="-4" />
     <option name="width" value="1557" />
-    <option name="height" value="789" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -89,8 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -125,6 +120,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +129,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/source/runner.py" />
   </component>
-  <component name="RunManager" selected="Python.Help-Arg">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.DummyLibrary">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,7 +287,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AS_CLR" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/runner.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="dummylib.so" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <method />
     </configuration>
@@ -326,15 +328,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="-789" width="1557" height="789" extended-state="6" />
+    <frame x="1643" y="-4" width="1557" height="817" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24983944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13230571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -386,8 +388,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28">
-          <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="110" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

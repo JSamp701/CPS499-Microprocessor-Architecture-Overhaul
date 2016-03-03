@@ -31,14 +31,15 @@ static ARMSIM_STATUS (*invalidate_cache)(ARMSIM_CTX*, ARM_ADDRESS);
 static ARMSIM_STATUS (*notify_event)(ARMSIM_CTX*, ARMSIM_EVENT);
 static ARMSIM_STATUS (*execute)(ARMSIM_CTX*, size_t, size_t*);
 
-static const ASAPI_MAJOR LIB_MAJOR = ASAPI_MAJOR_0;
-static const enum ASAPI_MINOR LIB_MINOR = ASAPI_MINOR_2;
+static enum ASAPI_MAJOR LIB_MAJOR = ASAPI_MAJOR_0;
+static enum ASAPI_MINOR LIB_MINOR = ASAPI_MINOR_2;
 
 char* initialize_library(char *lib_path, ARMSIM_LOG_HOOK log_hook, void *actx){
     char *error;
     wrapper_logger=log_hook;
     wrapper_logger_ctx = actx;
+}
 
-
-    as_lib_handle =
+const char* test_function_for_loading(){
+    return "HI!";
 }

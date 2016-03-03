@@ -1,7 +1,8 @@
 from ctypes import *
 import argparse
+import os
 
-__wrapper_path__="cwrapper.so"
+__wrapper_name__="libcwrapper.so"
 
 
 def version_number():
@@ -14,6 +15,13 @@ def supported_library_versions():
     version_list = []
     allowed_versions["0"] = version_list
     allowed_versions["0"].append("2")
+
+
+def load_lib_from_relative_path(rel_path):
+    # code / concepts used from
+    # http://stackoverflow.com/questions/2980479/python-ctypes-loading-dll-from-from-a-relative-path
+    lib_abs_path = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + rel_path
+    return cdll.LoadLibrary(lib_abs_path)
 
 
 def create_and_configure_parser():
@@ -37,10 +45,21 @@ def create_and_configure_parser():
     parser.add_argument("--debug-level", help="specify level for logging", metavar="log-level",
                         dest="log_level", default=1, type=int)
     parser.add_argument("-s", "--script", help="specify filename for interrupt scripting", metavar="script-name",
-                        dest="script_file_name", default=False)
+                        dest="script_file_name")
     return parser
+
+
+def setup_wrapper(awrapper):
+    #setup the return type of the test_function_for_loading function
+    afunc = awrapper.test_function_for_loading
+    afunc.restype = c_char_p
+
 
 if __name__ == "__main__":
     myparser = create_and_configure_parser()
     nspace = myparser.parse_args()
-    wrapper = cdll.LoadLibrary()
+    #print("HI!")
+    print(nspace)
+    wrapper = load_lib_from_relative_path(__wrapper_name__)
+    setup_wrapper(wrapper)
+    print(wrapper.test_function_for_loading())

@@ -39,8 +39,8 @@ enum ASAPI_MINOR {
 // Public functions that return the major and minor numbers
 // identifying the version of the ArmSim API implemented by
 // *this* particular ARM simulator library.
-ASAPI_MAJOR asapi_major_version();
-ASAPI_MINOR asapi_minor_version();
+enum ASAPI_MAJOR asapi_major_version();
+enum ASAPI_MINOR asapi_minor_version();
 
 // Macro that expands to the "default" implementation of the version functions
 #define DEFINE_DEFAULT_ASAPI_VERSION_FUNCTIONS \
@@ -223,7 +223,7 @@ typedef enum ARM_BANKED_REG {
     ABR_spsr_irq    =   28,
     
     // FIQ mode r8-r12/SP/LR/SPSR (not usually implemented)
-    ABR_r8_fiq      =   29
+    ABR_r8_fiq      =   29,
     ABR_r9_fiq      =   30,
     ABR_r10_fiq     =   31,
     ABR_r11_fiq     =   32,
