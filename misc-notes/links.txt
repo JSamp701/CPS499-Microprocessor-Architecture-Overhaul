@@ -16,3 +16,5 @@ http://stackoverflow.com/questions/4928341/having-cmake-put-generated-binaries-i
 https://cmake.org/cmake/help/v3.0/prop_tgt/LIBRARY_OUTPUT_DIRECTORY.html#prop_tgt:LIBRARY_OUTPUT_DIRECTORY
 https://cmake.org/cmake/help/v3.0/prop_tgt/RUNTIME_OUTPUT_DIRECTORY.html#prop_tgt:RUNTIME_OUTPUT_DIRECTORY
 https://cmake.org/cmake/help/v3.0/prop_tgt/ARCHIVE_OUTPUT_DIRECTORY.html#prop_tgt:ARCHIVE_OUTPUT_DIRECTORY
+http://stackoverflow.com/questions/3131854/how-to-return-a-pointer-to-a-structure-in-ctypes
+https://en.wikipedia.org/wiki/Struct_(C_programming_language)

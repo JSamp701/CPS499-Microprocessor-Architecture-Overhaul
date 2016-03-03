@@ -2,8 +2,6 @@ from ctypes import *
 import argparse
 import os
 
-__wrapper_name__="libcwrapper.so"
-
 
 def version_number():
     VersionNo = 1
@@ -49,10 +47,9 @@ def create_and_configure_parser():
     return parser
 
 
-def setup_wrapper(awrapper):
-    #setup the return type of the test_function_for_loading function
-    afunc = awrapper.test_function_for_loading
-    afunc.restype = c_char_p
+def setup_library(alib):
+    #print("NOT IMPLEMENTED")
+    alib.as_destroy_simulator.restype = c_int32
 
 
 if __name__ == "__main__":
@@ -60,6 +57,6 @@ if __name__ == "__main__":
     nspace = myparser.parse_args()
     #print("HI!")
     print(nspace)
-    wrapper = load_lib_from_relative_path(__wrapper_name__)
-    setup_wrapper(wrapper)
-    print(wrapper.test_function_for_loading())
+    lib = load_lib_from_relative_path(nspace.library)
+    setup_library(lib)
+    print(lib.as_destroy_simulator())
