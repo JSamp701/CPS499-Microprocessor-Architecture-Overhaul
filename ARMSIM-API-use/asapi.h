@@ -33,7 +33,8 @@ enum ASAPI_MAJOR {
 enum ASAPI_MINOR {
     ASAPI_MINOR_1   = 1,
     ASAPI_MINOR_2   = 2,
-    ASAPI_MINOR_CURRENT = ASAPI_MINOR_2
+    ASAPI_MINOR_3   = 3,
+    ASAPI_MINOR_CURRENT = ASAPI_MINOR_3
 } ASAPI_MINOR;
 
 // Public functions that return the major and minor numbers
@@ -92,7 +93,8 @@ typedef enum ARMSIM_STATUS {
 
     // Cache related errors
     AS_CACHE_DISABLED   = 50,   // Operation works only if caching is enabled, but it is not
-    
+
+    AS_TEST_STATUS      = 91,
     AS_MAX                      // Unused; all real status codes are < this one
 } ARMSIM_STATUS;
 
@@ -100,6 +102,7 @@ typedef enum ARMSIM_STATUS {
 typedef enum ARMSIM_LOGLEVEL {
     AL_OFF          = 0,    // No log messages at all
     AL_REQUIRED     = 1,    // Only offically required log messages
+    AL_DEFAULT      = AL_REQUIRED,
                             // You are free to use values in the range 2..10
     AL_MAX          = 10    // to provide fine-grained control over logging
                             // verbosity
@@ -107,9 +110,10 @@ typedef enum ARMSIM_LOGLEVEL {
 
 // Standard trace-logging levels
 typedef enum ARMSIM_TRACELEVEL {
-    AT_OFF  =   0,  // No trace log output AT ALL
-    AT_FAST =   1,  // Trace output with only instruction count/PC/flags/registers
-    AT_FULL =   2   // Full trace output, including simulated RAM MD5
+    AT_OFF      = 0,  // No trace log output AT ALL
+    AT_FAST     = 1,  // Trace output with only instruction count/PC/flags/registers
+    AT_DEFAULT  = AT_FAST,
+    AT_FULL     = 2   // Full trace output, including simulated RAM MD5
 } ARMSIM_TRACELEVEL;
 
 // Asynchronous/external events that the simulated CPU must be informed of
