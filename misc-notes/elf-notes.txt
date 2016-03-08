@@ -1,0 +1,4 @@
+ELFHeader
+	50 bytes in length (for the 32 bit version)
+	Analysis of bytes
+		0-3 : Magic Numbers (0x7F,45,4c,46)

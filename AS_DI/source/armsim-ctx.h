@@ -9,7 +9,6 @@
 
 struct ARMSIM_CTX {
     //put necessary instance variables here
-    int foo;
     void *hook_ctx;
     ARMSIM_MMIO_LOAD_HOOK load_hook;
     ARMSIM_MMIO_STORE_HOOK store_hook;
@@ -17,14 +16,8 @@ struct ARMSIM_CTX {
     ARMSIM_LOG_HOOK trace_hook;
     enum ARMSIM_LOGLEVEL loglevel;
     enum ARMSIM_TRACELEVEL tracelevel;
+    int sanity_test;
+    int log_hook_defined;
+    int trace_hook_defined;
 };
-
-//i suggest you define a pseudo-constructor / destructor in this file as well
-ARMSIM_STATUS create_context(ARMSIM_CTX* ctx){
-    return AS_NOT_IMPLEMENTED;
-}
-
-ARMSIM_STATUS delete_context(ARMSIM_CTX* ctx){
-    return AS_NOT_IMPLEMENTED;
-}
 #endif //AS_DI_ARMSIM_CTX_DEF_H

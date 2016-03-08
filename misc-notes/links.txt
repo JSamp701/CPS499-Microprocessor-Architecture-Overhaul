@@ -18,3 +18,6 @@ https://cmake.org/cmake/help/v3.0/prop_tgt/RUNTIME_OUTPUT_DIRECTORY.html#prop_tg
 https://cmake.org/cmake/help/v3.0/prop_tgt/ARCHIVE_OUTPUT_DIRECTORY.html#prop_tgt:ARCHIVE_OUTPUT_DIRECTORY
 http://stackoverflow.com/questions/3131854/how-to-return-a-pointer-to-a-structure-in-ctypes
 https://en.wikipedia.org/wiki/Struct_(C_programming_language)
+http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
+http://stackoverflow.com/questions/444591/convert-a-string-of-bytes-into-an-int-python
+http://www.cyberciti.biz/tips/compile-32bit-application-using-gcc-64-bit-linux.html

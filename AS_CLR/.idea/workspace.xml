@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e01109d2-fa73-449d-817e-1a2ee82bc4b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AS_LC/source/as_libwrapper.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../AS_LC/configurer.py" afterPath="$PROJECT_DIR$/../AS_LC/source/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/libdummy.so" afterPath="$PROJECT_DIR$/source/libdummy.so" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/trace.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/lc_source/quick_memory_manager.py" afterPath="$PROJECT_DIR$/source/lc_source/quick_memory_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/runner.py" afterPath="$PROJECT_DIR$/source/runner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_DI/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/source/jsamp701-asapi-dummy-impl.c" afterPath="$PROJECT_DIR$/../AS_DI/source/jsamp701-asapi-dummy-impl.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_LC/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/source/as_libwrapper.py" afterPath="$PROJECT_DIR$/../AS_LC/source/as_libwrapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/source/quick_memory_manager.py" afterPath="$PROJECT_DIR$/../AS_LC/source/quick_memory_manager.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_RI/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_RI/.idea/workspace.xml" />
     </list>
     <ignored path="AS_CLR.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,23 +33,71 @@
       <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="96" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
+            <state vertical-scroll-proportion="-19.32258">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="as_libwrapper.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="as_libwrapper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/lc_source/as_libwrapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.56">
-              <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+            <state vertical-scroll-proportion="-5.806452">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#59#93#0" expanded="false" />
+                <element signature="e#135#323#0" expanded="false" />
+                <element signature="e#419#932#0" expanded="false" />
+                <element signature="e#979#1062#0" expanded="false" />
+                <element signature="e#1613#3091#0" expanded="false" />
+                <element signature="e#3209#3235#0" expanded="false" />
+                <element signature="e#3280#3495#0" expanded="false" />
+                <element signature="e#3648#3877#0" expanded="false" />
+                <element signature="e#3930#4180#0" expanded="false" />
+                <element signature="e#4222#4924#0" expanded="false" />
+                <element signature="e#4979#5700#0" expanded="false" />
+                <element signature="e#5746#5942#0" expanded="false" />
+                <element signature="e#5995#6436#0" expanded="false" />
+                <element signature="e#6488#6879#0" expanded="false" />
+                <element signature="e#6923#7368#0" expanded="false" />
+                <element signature="e#7412#8022#0" expanded="false" />
+                <element signature="e#8072#8140#0" expanded="false" />
+                <element signature="e#8192#13184#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="as_parser_maker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/lc_source/as_parser_maker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_memory_manager.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/lc_source/quick_memory_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6">
+              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quick_logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/lc_source/quick_logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,14 +118,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/source/lc_source/quick_logger.py" />
         <option value="$PROJECT_DIR$/source/trace.log" />
-        <option value="$PROJECT_DIR$/source/runner.py" />
         <option value="$PROJECT_DIR$/source/lc_source/as_libwrapper.py" />
+        <option value="$PROJECT_DIR$/source/lc_source/as_parser_maker.py" />
+        <option value="$PROJECT_DIR$/source/runner.py" />
+        <option value="$PROJECT_DIR$/source/lc_source/quick_memory_manager.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="1643" />
     <option name="y" value="24" />
     <option name="width" value="1557" />
     <option name="height" value="789" />
@@ -107,8 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,8 +190,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AS_CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AS_CLR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lc_source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,15 +436,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="24" width="1557" height="789" extended-state="6" />
+    <frame x="1643" y="24" width="1557" height="789" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13230571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -385,7 +455,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -402,7 +471,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -412,72 +481,36 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/runner.py">
+    <entry file="file://$PROJECT_DIR$/source/lc_source/as_libwrapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#59#93#0" expanded="false" />
+            <element signature="e#135#323#0" expanded="false" />
+            <element signature="e#419#932#0" expanded="false" />
+            <element signature="e#979#1062#0" expanded="false" />
+            <element signature="e#1613#3091#0" expanded="false" />
+            <element signature="e#3209#3235#0" expanded="false" />
+            <element signature="e#3280#3495#0" expanded="false" />
+            <element signature="e#3648#3877#0" expanded="false" />
+            <element signature="e#3930#4180#0" expanded="false" />
+            <element signature="e#4222#4924#0" expanded="false" />
+            <element signature="e#4979#5700#0" expanded="false" />
+            <element signature="e#5746#5942#0" expanded="false" />
+            <element signature="e#5995#6436#0" expanded="false" />
+            <element signature="e#6488#6879#0" expanded="false" />
+            <element signature="e#6923#7368#0" expanded="false" />
+            <element signature="e#7412#8022#0" expanded="false" />
+            <element signature="e#8072#8140#0" expanded="false" />
+            <element signature="e#8192#13184#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/lc_source/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/trace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/trace.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,18 +519,155 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="96" selection-start-line="74" selection-start-column="96" selection-end-line="74" selection-end-column="96" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/lc_source/as_libwrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.56">
-          <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#59#93#0" expanded="false" />
+            <element signature="e#135#323#0" expanded="false" />
+            <element signature="e#419#932#0" expanded="false" />
+            <element signature="e#979#1062#0" expanded="false" />
+            <element signature="e#1613#3091#0" expanded="false" />
+            <element signature="e#3209#3235#0" expanded="false" />
+            <element signature="e#3280#3495#0" expanded="false" />
+            <element signature="e#3648#3877#0" expanded="false" />
+            <element signature="e#3930#4180#0" expanded="false" />
+            <element signature="e#4222#4924#0" expanded="false" />
+            <element signature="e#4979#5700#0" expanded="false" />
+            <element signature="e#5746#5942#0" expanded="false" />
+            <element signature="e#5995#6436#0" expanded="false" />
+            <element signature="e#6488#6879#0" expanded="false" />
+            <element signature="e#6923#7368#0" expanded="false" />
+            <element signature="e#7412#8022#0" expanded="false" />
+            <element signature="e#8072#8140#0" expanded="false" />
+            <element signature="e#8192#13184#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lc_source/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lc_source/quick_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.32258">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lc_source/as_libwrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.806452">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#59#93#0" expanded="false" />
+            <element signature="e#135#323#0" expanded="false" />
+            <element signature="e#419#932#0" expanded="false" />
+            <element signature="e#979#1062#0" expanded="false" />
+            <element signature="e#1613#3091#0" expanded="false" />
+            <element signature="e#3209#3235#0" expanded="false" />
+            <element signature="e#3280#3495#0" expanded="false" />
+            <element signature="e#3648#3877#0" expanded="false" />
+            <element signature="e#3930#4180#0" expanded="false" />
+            <element signature="e#4222#4924#0" expanded="false" />
+            <element signature="e#4979#5700#0" expanded="false" />
+            <element signature="e#5746#5942#0" expanded="false" />
+            <element signature="e#5995#6436#0" expanded="false" />
+            <element signature="e#6488#6879#0" expanded="false" />
+            <element signature="e#6923#7368#0" expanded="false" />
+            <element signature="e#7412#8022#0" expanded="false" />
+            <element signature="e#8072#8140#0" expanded="false" />
+            <element signature="e#8192#13184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lc_source/as_parser_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/lc_source/quick_memory_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
