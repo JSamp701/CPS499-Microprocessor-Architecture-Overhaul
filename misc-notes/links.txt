@@ -21,3 +21,7 @@ https://en.wikipedia.org/wiki/Struct_(C_programming_language)
 http://stackoverflow.com/questions/510357/python-read-a-single-character-from-the-user
 http://stackoverflow.com/questions/444591/convert-a-string-of-bytes-into-an-int-python
 http://www.cyberciti.biz/tips/compile-32bit-application-using-gcc-64-bit-linux.html
+https://wiki.python.org/moin/TkInter
+https://wiki.python.org/moin/GuiProgramming
+https://sourceware.org/gdb/wiki/GDB%20Front%20Ends
+https://docs.python.org/2/library/struct.html

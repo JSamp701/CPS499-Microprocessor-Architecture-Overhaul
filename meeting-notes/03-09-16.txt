@@ -1,0 +1,15 @@
+GUI or GDB stub?
+	GUI
+		would have to do disassembly in the GUI (my job)
+	GDBStub * Mr. J likes
+		GDB Client / Host thingy does disassembly on its own
+			single step
+			can be easy gui
+		would require implementing an interface (mapping network strings to methods / commands)
+		2 Threads
+			Runner (execute(1) and check if need to stop)
+			GDB nw / cli thread
+		Look for good GUI frontends
+
+MMIO
+	meh
