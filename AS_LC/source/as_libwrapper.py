@@ -85,6 +85,7 @@ class SimulatorInstance:
             return
         self._configure_simulator_instance()
 
+
     ### PUBLIC METHODS
 
     # returns the current error experienced by the wrapper
