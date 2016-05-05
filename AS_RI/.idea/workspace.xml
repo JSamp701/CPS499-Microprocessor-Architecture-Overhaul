@@ -17,38 +17,7 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6440e114-a812-4ba7-ad7b-f890bea9d9c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AS_CLR/source/libas_ref_impl.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/JSAMP701_API/instruction.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/JSAMP701_API/register.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/JSAMP701_API/utils.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/instruction.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/register.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/utils.c" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/armsim-ctx.h" afterPath="$PROJECT_DIR$/source/JSAMP701_API/armsim-ctx.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/source/lc_source" afterPath="$PROJECT_DIR$/../AS_CLR/source/lc_source" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/out/libdummy.so" afterPath="$PROJECT_DIR$/../AS_DI/out/libdummy.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/source/ASAPI" afterPath="$PROJECT_DIR$/../AS_DI/source/ASAPI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/ASAPI" afterPath="$PROJECT_DIR$/source/ASAPI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ARMSIM-API-use/asapi.h" afterPath="$PROJECT_DIR$/../ARMSIM-API-use/asapi.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/.idea/AS_CLR.iml" afterPath="$PROJECT_DIR$/../AS_CLR/.idea/AS_CLR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/.idea/misc.xml" afterPath="$PROJECT_DIR$/../AS_CLR/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_CLR/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_CLR/source/runner.py" afterPath="$PROJECT_DIR$/../AS_CLR/source/runner.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/.idea/AS_DI.iml" afterPath="$PROJECT_DIR$/../AS_DI/.idea/AS_DI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_DI/.idea/misc.xml" afterPath="$PROJECT_DIR$/../AS_DI/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/.idea/AS_LC.iml" afterPath="$PROJECT_DIR$/../AS_LC/.idea/AS_LC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/.idea/misc.xml" afterPath="$PROJECT_DIR$/../AS_LC/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AS_LC/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/source/as_libwrapper.py" afterPath="$PROJECT_DIR$/../AS_LC/source/as_libwrapper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/source/quick_logger.py" afterPath="$PROJECT_DIR$/../AS_LC/source/quick_logger.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AS_LC/source/quick_memory_manager.py" afterPath="$PROJECT_DIR$/../AS_LC/source/quick_memory_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/AS_RI.iml" afterPath="$PROJECT_DIR$/.idea/AS_RI.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/jsamp701-asapi-reference-impl.c" afterPath="$PROJECT_DIR$/source/jsamp701-asapi-reference-impl.c" />
-    </list>
+    <list default="true" id="6440e114-a812-4ba7-ad7b-f890bea9d9c4" name="Default" comment="" />
     <ignored path="AS_RI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,8 +40,8 @@
       <file leaf-file-name="jsamp701-asapi-reference-impl.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/jsamp701-asapi-reference-impl.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3378">
-              <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
+            <state relative-caret-position="7152">
+              <caret line="481" column="0" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -80,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instruction.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="instruction.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/instruction.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="620" column="29" selection-start-line="620" selection-start-column="29" selection-end-line="620" selection-end-column="29" />
+            <state relative-caret-position="528">
+              <caret line="1081" column="1" selection-start-line="1081" selection-start-column="1" selection-end-line="1081" selection-end-column="1" />
               <folding>
                 <element signature="e#37#74#0" expanded="true" />
                 <element signature="e#23041#23235#0" expanded="false" />
@@ -110,8 +79,8 @@
       <file leaf-file-name="register.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/register.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+            <state relative-caret-position="528">
+              <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
@@ -122,10 +91,26 @@
       <file leaf-file-name="instruction.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/JSAMP701_API/instruction.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="870">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#94#121#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="asapi.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/ASAPI/asapi.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4926">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#2922#4200#0" expanded="false" />
+                <element signature="e#4258#4633#0" expanded="false" />
+                <element signature="e#4693#4955#0" expanded="false" />
+                <element signature="e#5059#5170#0" expanded="false" />
+                <element signature="e#5353#5878#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -172,7 +157,7 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1647" />
-    <option name="y" value="-904" />
+    <option name="y" value="-1804" />
     <option name="width" value="1553" />
     <option name="height" value="904" />
   </component>
@@ -520,10 +505,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1647" y="-904" width="1553" height="904" extended-state="6" />
-    <editor active="false" />
+    <frame x="1647" y="-1804" width="1553" height="904" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13650998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13650998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1706102" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -615,6 +600,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -659,6 +647,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -666,6 +657,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,6 +688,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -707,6 +708,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,6 +739,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,6 +759,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1098">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -786,6 +804,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -793,6 +814,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
           <caret line="154" column="23" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="23" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,6 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,6 +855,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -848,6 +886,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,6 +913,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -928,13 +972,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/ASAPI/asapi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1093">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#96#123#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -942,6 +982,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,40 +994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/register.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/JSAMP701_API/instruction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#94#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/jsamp701-asapi-reference-impl.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3378">
-          <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/instruction.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="620" column="29" selection-start-line="620" selection-start-column="29" selection-end-line="620" selection-end-column="29" />
+        <state relative-caret-position="528">
+          <caret line="1081" column="1" selection-start-line="1081" selection-start-column="1" selection-end-line="1081" selection-end-column="1" />
           <folding>
             <element signature="e#37#74#0" expanded="true" />
             <element signature="e#23041#23235#0" expanded="false" />
@@ -1004,6 +1015,50 @@
             <element signature="e#30564#31674#0" expanded="false" />
             <element signature="e#31676#33562#0" expanded="false" />
             <element signature="e#33564#35046#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/register.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="205" column="1" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/JSAMP701_API/instruction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#94#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/jsamp701-asapi-reference-impl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7152">
+          <caret line="481" column="0" selection-start-line="481" selection-start-column="0" selection-end-line="481" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ASAPI/asapi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4926">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#2922#4200#0" expanded="false" />
+            <element signature="e#4258#4633#0" expanded="false" />
+            <element signature="e#4693#4955#0" expanded="false" />
+            <element signature="e#5059#5170#0" expanded="false" />
+            <element signature="e#5353#5878#0" expanded="false" />
           </folding>
         </state>
       </provider>
