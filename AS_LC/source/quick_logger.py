@@ -1,16 +1,19 @@
+import sys
 class QuickLogger:
     def log(self,astring):
         self._logger(astring)
 
     def _tostdout(self, astring):
-        print(astring)
+        print(str(astring))
+        sys.stdout.flush()
 
     def _nothing(self):
         # print("QuickLogger cleanned up")
         self._closer = self._nothing
 
     def _tofile(self, astring):
-        self._file.write(astring + "\n")
+        self._file.write(str(astring))
+        self._file.write("\n")
         self._file.flush()
         #print("got here")
 

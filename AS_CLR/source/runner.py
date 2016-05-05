@@ -23,23 +23,23 @@ if __name__ == "__main__":
             ql_logger = ql.QuickLogger(nspace.log_file_name)
             ql_tracer = ql.QuickLogger(nspace.trace_file_name)
             mman = None
-            elf_file_path = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + nspace.load_file_name
             execute_method = None
             if nspace.script_file_name is not None:
                 print("SCRIPT INPUT NOT IMPLEMENTED YET")
                 # execute_method = execute_scripted
             else:
                 execute_method = _execute_non_scripted
-            mman = qmm.QuickMemoryManager(nspace.amount_of_ram, elf_file_path)
+            mman = qmm.QuickMemoryManager(nspace.amount_of_ram, nspace.load_file_name)
             simulator = lw.SimulatorInstance(lib_path=nspace.library, memory_amount=nspace.amount_of_ram,
                                              cache_amount=nspace.amount_to_cache,
                                              trace_level=nspace.trace_level,
                                              log_level=nspace.log_level,
                                              raw_trace_callback=ql_tracer.log, raw_log_callback=ql_logger.log,
-                                             raw_mmio_load_hook=mman.load, raw_mmio_store_hook=mman.store)
+                                             raw_mmio_load_hook=mman.load, raw_mmio_store_hook=mman.store,
+                                             entry_point=mman.entry)
             error = simulator.get_error()
             if error != "None":
-                print error
+                print(error)
             execute_method(simulator)
             ql_logger.cleanup()
             ql_tracer.cleanup()

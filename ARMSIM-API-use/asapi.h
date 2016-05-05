@@ -90,6 +90,8 @@ typedef enum ARMSIM_STATUS {
     AS_BAD_INSTRUCTION  = 30,   // Unknown/invalid instruction encountered
     AS_BAD_ALIGNMENT    = 31,   // WORD access at non-WORD-aligned address, etc.
     AS_SWI_ZERO         = 32,   // Not an error per-se, but an indicator that execution should not be resumed
+    AS_BAD_ENTRY         = 33,  // No entry point was specified or a bad entry point was specified.  Please use
+                                // as_set_entry to fix
 
     // Cache related errors
     AS_CACHE_DISABLED   = 50,   // Operation works only if caching is enabled, but it is not
@@ -368,8 +370,15 @@ ARMSIM_STATUS as_cache_invalidate(ARMSIM_CTX *ctx, ARM_ADDRESS address);
 // execution cycle)
 ARMSIM_STATUS as_notify_event(ARMSIM_CTX *ctx, ARMSIM_EVENT event);
 
+// API to specify program entry address
+// This number will be stored and (when execution happens or when
+// the cpu is reset, this number will be loaded into the pc).
+ARMSIM_STATUS as_set_entry(ARMSIM_CTX *ctx, ARM_ADDRESS entry);
 
 // API to trigger the execution of <cycles> instructions.
+//
+// If as_set_entry has not yet been called, this should return AS_BAD_ENTRY
+//
 // If <cycles> == 0, then execute instructions until either an
 // error is detected or until an "SWI #0" instructions is emulated.
 //
@@ -382,5 +391,18 @@ ARMSIM_STATUS as_notify_event(ARMSIM_CTX *ctx, ARMSIM_EVENT event);
 // AS_OK.  If an SWI-0 is encountered (even on the final instruction),
 // AS_SWI_ZERO is returned.  Otherwise an approprate error status is returned.
 ARMSIM_STATUS as_execute(ARMSIM_CTX *ctx, size_t cycles, size_t *finished);
+
+// Simple hook to retrieve the implementation level of the simulator as a
+// string of the form:
+//      P:VVV:C
+// where
+//      P is a single digit integer representing the phase
+//      VVV is a three didgit integer representing the version implemented
+//          (anything past 100 is considered the same)
+//      C is a variable length comment for additional information (perhaps
+//          regarding the extra credit)
+ARMSIM_STATUS as_level(const char **level);
+
+#define LOG_STRING_LENGTH 100
 
 #endif

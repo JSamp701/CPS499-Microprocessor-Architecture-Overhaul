@@ -51,7 +51,7 @@ class SimulatorInstance:
 
     # Constructor
     def __init__(self, lib_path, memory_amount, cache_amount, trace_level, log_level, raw_trace_callback,
-                 raw_log_callback, raw_mmio_load_hook, raw_mmio_store_hook):
+                 raw_log_callback, raw_mmio_load_hook, raw_mmio_store_hook, entry_point):
         # store the passed parameters
         self._cache_amount = cache_amount
         self._trace_level = trace_level
@@ -60,6 +60,7 @@ class SimulatorInstance:
         self._raw_log_callback = raw_log_callback
         self._raw_mmio_load_hook = raw_mmio_load_hook
         self._raw_mmio_store_hook = raw_mmio_store_hook
+        self._entry_point = entry_point
         self._memory_amount = memory_amount
         self._lib_path = lib_path
 
@@ -145,6 +146,9 @@ class SimulatorInstance:
                                                                   self._trace_callback, self._hookctx))
         statuses.append(self._simulator_lib.as_set_debug_log_hook(self._simulator_instance,
                                                                   self._log_callback, self._hookctx))
+        statuses.append(self._simulator_lib.as_set_entry(self._simulator_instance,
+                                                         c_uint32(self._entry_point)))
+        statuses.append(self._simulator_lib.as_reset_cpu(self._simulator_instance))
         # for something in statuses:
         #    print(self._as_status_map[something])
 
@@ -309,5 +313,8 @@ class SimulatorInstance:
         # ARMSIM_STATUS as_execute(ARMSIM_CTX *ctx, size_t cycles, size_t *finished);
         self._simulator_lib.as_execute.restype = c_int32
         self._simulator_lib.as_execute.argteypes = [c_void_p, c_int32, POINTER(c_int32)]
+
+        self._simulator_lib.as_set_entry.restype = c_int32
+        self._simulator_lib.as_set_entry.argtypes = [c_void_p, c_uint32]
 
 
